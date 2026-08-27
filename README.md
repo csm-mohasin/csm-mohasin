@@ -9,3 +9,4 @@
 
 
 ![Snake animation](https://raw.githubusercontent.com/csm-mohasin/csm-mohasin/output/github-contribution-grid-snake-dark.svg)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:FF00E5&height=200&section=header&text=CSM%20MOHASIN&fontSize=50&fontColor=FFFFFF&animation=fadeIn)
