@@ -1,0 +1,26 @@
+name: GitHub Profile 3D Contribution Calendar
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate 3D calendar
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          username: csm-mohasin
+      - name: Commit & push
+        run: |
+          git add -f profile-3d-contrib/*.svg
+          git commit -m "Generate 3D contribution" || echo "No changes"
+          git push
