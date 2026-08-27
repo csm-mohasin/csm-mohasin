@@ -3,3 +3,9 @@
 
 ![ASCII Photo](./ascii_ultra.png)
 
+
+
+## 📊 Live Activity
+
+
+![Snake animation](https://raw.githubusercontent.com/csm-mohasin/csm-mohasin/output/github-contribution-grid-snake-dark.svg)
